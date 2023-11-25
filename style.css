@@ -4,7 +4,13 @@
     box-sizing: border-box;
     background-color: rgb(0, 0, 0)
 }
-#H110{
+#header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+#headerDiv{
     text-align: center;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
